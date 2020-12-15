@@ -7,7 +7,7 @@ Step-by-step Jupyter Notebook tutorials for Soft-IntroVAE
 </center>
 
 <p align="center">
-<img src="https://raw.githubusercontent.com/taldatech/soft-intro-vae-web/main/assets/sintrovae_flow.PNG" style="height:200px"></p>
+<img src="https://raw.githubusercontent.com/taldatech/soft-intro-vae-web/main/assets/sintrovae_flow.PNG" height="200"></p>
 
 - [soft-intro-vae-pytorch-tutorials](#soft-intro-vae-pytorch-tutorials)
   * [Running Instructions](#running-instructions)

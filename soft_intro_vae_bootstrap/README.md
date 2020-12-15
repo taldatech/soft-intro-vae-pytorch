@@ -5,7 +5,7 @@ Implementation of Soft-IntroVAE for image data, using "bootstrapping".
 A step-by-step tutorial can be found in [Soft-IntroVAE Jupyter Notebook Tutorials](https://github.com/taldatech/soft-intro-vae-pytorch/tree/main/soft_intro_vae_tutorial).
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/taldatech/soft-intro-vae-web/main/assets/svhn_samples.png" style="height:250px">
+  <img src="https://raw.githubusercontent.com/taldatech/soft-intro-vae-web/main/assets/svhn_samples.png" width="200">
 </p>
 
 - [soft-intro-vae-pytorch-images-bootstrap](#soft-intro-vae-pytorch-images-bootstrap)

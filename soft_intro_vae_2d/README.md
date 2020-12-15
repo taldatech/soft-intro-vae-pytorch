@@ -5,8 +5,8 @@ Implementation of Soft-IntroVAE for tabular (2D) data.
 A step-by-step tutorial can be found in [Soft-IntroVAE Jupyter Notebook Tutorials](https://github.com/taldatech/soft-intro-vae-pytorch/tree/main/soft_intro_vae_tutorial).
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/taldatech/soft-intro-vae-web/main/assets/samples_plot_png_f.PNG" style="height:250px">
-  <img src="https://raw.githubusercontent.com/taldatech/soft-intro-vae-web/main/assets/density_plot_png_f.PNG" style="height:250px">
+  <img src="https://raw.githubusercontent.com/taldatech/soft-intro-vae-web/main/assets/samples_plot_png_f.PNG" width="200">
+  <img src="https://raw.githubusercontent.com/taldatech/soft-intro-vae-web/main/assets/density_plot_png_f.PNG" width="200">
 </p>
 
 - [soft-intro-vae-pytorch-2d](#soft-intro-vae-pytorch-2d)

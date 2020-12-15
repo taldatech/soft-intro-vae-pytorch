@@ -7,12 +7,12 @@ Please see the [official repository](https://github.com/podgorskiy/ALAE) for a m
 The authors would like to thank Stanislav Pidhorskyi, Donald A. Adjeroh and Gianfranco Doretto for their great work which inspired this implementation.
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/taldatech/soft-intro-vae-web/main/assets/celebahq_samples.png" style="height:200px">
-  <img src="https://raw.githubusercontent.com/taldatech/soft-intro-vae-web/main/assets/ffhq_recons.png" style="height:200px">
+  <img src="https://raw.githubusercontent.com/taldatech/soft-intro-vae-web/main/assets/celebahq_samples.png" width="200">
+  <img src="https://raw.githubusercontent.com/taldatech/soft-intro-vae-web/main/assets/ffhq_recons.png" height="133">
 </p>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/taldatech/soft-intro-vae-web/main/assets/style_sintro_vae.PNG" style="height:250px">
+  <img src="https://raw.githubusercontent.com/taldatech/soft-intro-vae-web/main/assets/style_sintro_vae.PNG" width="400">
 </p>
 
 - [style-soft-intro-vae-pytorch](#style-soft-intro-vae-pytorch)
