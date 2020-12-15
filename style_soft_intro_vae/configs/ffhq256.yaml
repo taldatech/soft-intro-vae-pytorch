@@ -1,0 +1,42 @@
+ # Config for training SoftIntroVAE on FFHQ at resolution 1256x256
+
+NAME: ffhq
+DATASET:
+  PART_COUNT: 16
+  SIZE: 60000
+  FFHQ_SOURCE: /mnt/data/tal/ffhq_ds/ffhq-dataset/tfrecords_custom/ffhq-r%02d.tfrecords
+  PATH: /mnt/data/tal/ffhq_ds/ffhq-dataset/tfrecords_custom/splitted/ffhq-r%02d.tfrecords.%03d
+
+  PART_COUNT_TEST: 2
+  PATH_TEST: /mnt/data/tal/ffhq_ds/ffhq-dataset/tfrecords_custom/splitted/ffhq-r%02d.tfrecords.%03d
+
+  SAMPLES_PATH: /mnt/data/tal/ffhq_ds/ffhq-dataset/images1024x1024/69000
+  STYLE_MIX_PATH: style_mixing/test_images/set_ffhq
+
+  MAX_RESOLUTION_LEVEL: 8
+MODEL:
+  LATENT_SPACE_SIZE: 512
+  LAYER_COUNT: 7
+  MAX_CHANNEL_COUNT: 512
+  START_CHANNEL_COUNT: 64
+  DLATENT_AVG_BETA: 0.995
+  MAPPING_LAYERS: 8
+  BETA_KL: 0.2
+  BETA_REC: 0.1
+  BETA_NEG: [2048,  2048,   2048,   1024,  512,   512,     512,    512,    512]
+  SCALE: 0.000005
+OUTPUT_DIR: /home/tal/tmp/StyleSandwichVAE2/git_version/training_artifacts/ffhq
+TRAIN:
+  BASE_LEARNING_RATE: 0.002
+  EPOCHS_PER_LOD: 16
+  NUM_VAE: 1
+  LEARNING_DECAY_RATE: 0.1
+  LEARNING_DECAY_STEPS: []
+  TRAIN_EPOCHS: 300
+  #                    4    8   16    32    64    128    256
+  LOD_2_BATCH_8GPU: [512, 256, 128,   64,   32,    32,    32,       32,        32] # If GPU memory ~16GB reduce last number from 32 to 24
+  LOD_2_BATCH_4GPU: [ 512,    256,     128,      64,      32,       32,        16,       8,        4 ]
+  LOD_2_BATCH_2GPU: [ 128,    128,     128,      64,      32,       16,        8 ]
+  LOD_2_BATCH_1GPU: [ 128,    128,     128,      32,      16,       8,         4 ]
+
+  LEARNING_RATES: [0.0015,  0.0015,   0.0015,   0.0015,  0.0015,   0.0015,     0.002,     0.003,    0.003]
