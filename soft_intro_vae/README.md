@@ -2,12 +2,11 @@
 
 Implementation of Soft-IntroVAE for image data.
 
-A step-by-step tutorial can be found in [Soft-IntroVAE Jupyter Notebook Tutorials]().
+A step-by-step tutorial can be found in [Soft-IntroVAE Jupyter Notebook Tutorials](https://github.com/taldatech/soft-intro-vae-pytorch/tree/main/soft_intro_vae_tutorial).
 
-![2d_plot](https://github.com/taldatech/deep-variational-semisupervised-anomaly-detection-pytorch/blob/master/figs/anim_trimmed.gif?raw=true)
-
-  
-![2d_density](https://github.com/taldatech/deep-variational-semisupervised-anomaly-detection-pytorch/blob/master/figs/motion_plan.png?raw=true)
+<p align="center">
+  <img src="https://raw.githubusercontent.com/taldatech/soft-intro-vae-web/main/assets/cifar10_samples.png" style="height:250px">
+</p>
 
 - [soft-intro-vae-pytorch-images](#soft-intro-vae-pytorch-images)
   * [Training](#training)
@@ -85,5 +84,6 @@ Examples:
 
 
 ## Tutorial
-* 
+* [Jupyter Notebook tutorial for image datasets](https://github.com/taldatech/soft-intro-vae-pytorch/blob/main/soft_intro_vae_tutorial/soft_intro_vae_image_code_tutorial.ipynb)
+
 

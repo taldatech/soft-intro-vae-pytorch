@@ -12,8 +12,14 @@ Soft-IntroVAE: Analyzing and Improving Introspective Variational Autoencoders
   </p>
 <h4 align="center">Official repository of the paper</h4>
 
+<h4 align="center">
+    <a href="https://colab.research.google.com/github/taldatech/soft-intro-vae-pytorch"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
+</h4>
+
+
 <p align="center">
-  <img src="./assets/ffhq_samples.png">
+  <img src="https://github.com/taldatech/soft-intro-vae-web/raw/main/assets/ffhq_samples.png" style="height:250px">
+  <img src="https://raw.githubusercontent.com/taldatech/soft-intro-vae-web/main/assets/celebahq_recons.png" style="height:250px">
 </p>
 
 # Soft-IntroVAE
@@ -47,7 +53,7 @@ In this work, we take a step towards better understanding of the IntroVAE model,
 
 ## Prerequisites
 
-* For your convenience, we provide an `environemnt.yml` file which install the required packages in a `conda` environment name `torch`.
+* For your convenience, we provide an `environemnt.yml` file which installs the required packages in a `conda` environment name `torch`.
     * Use the terminal or an Anaconda Prompt and run the following command `conda env create -f environment.yml`.
 * For Style-SoftIntroVAE, more packages are required, and we provide them in the `style_soft_intro_vae` directory.
 
@@ -79,7 +85,7 @@ In this work, we take a step towards better understanding of the IntroVAE model,
 
 
 ## Credits
-* Adversarial Latent Autoencoders, Pidhorskyi et al., CVPR 2020. [Code](https://github.com/podgorskiy/ALAE), [Paper](https://arxiv.org/abs/2004.04467).
+* Adversarial Latent Autoencoders, Pidhorskyi et al., CVPR 2020 - [Code](https://github.com/podgorskiy/ALAE), [Paper](https://arxiv.org/abs/2004.04467).
 * FID is calculated natively in PyTorch using Seitzer implementation - [Code](https://github.com/mseitzer/pytorch-fid)
 
 

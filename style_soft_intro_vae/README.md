@@ -6,10 +6,14 @@ This codes builds upon the original Adversarial Latent Autoencoders (ALAE) imple
 Please see the [official repository](https://github.com/podgorskiy/ALAE) for a more detailed explanation of the files and how to get the datasets.
 The authors would like to thank Stanislav Pidhorskyi, Donald A. Adjeroh and Gianfranco Doretto for their great work which inspired this implementation.
 
-![2d_plot](https://github.com/taldatech/deep-variational-semisupervised-anomaly-detection-pytorch/blob/master/figs/anim_trimmed.gif?raw=true)
+<p align="center">
+  <img src="https://raw.githubusercontent.com/taldatech/soft-intro-vae-web/main/assets/celebahq_samples.png" style="height:200px">
+  <img src="https://raw.githubusercontent.com/taldatech/soft-intro-vae-web/main/assets/ffhq_recons.png" style="height:200px">
+</p>
 
-  
-![2d_density](https://github.com/taldatech/deep-variational-semisupervised-anomaly-detection-pytorch/blob/master/figs/motion_plan.png?raw=true)
+<p align="center">
+  <img src="https://raw.githubusercontent.com/taldatech/soft-intro-vae-web/main/assets/style_sintro_vae.PNG" style="height:250px">
+</p>
 
 - [style-soft-intro-vae-pytorch](#style-soft-intro-vae-pytorch)
   * [Requirements](#requirements)
@@ -115,5 +119,5 @@ Examples:
 |` training_artifacts/`| default folder for saving checkpoints/sample outputs/plots.|
 
 ## Credits
-* Adversarial Latent Autoencoders, Pidhorskyi et al., CVPR 2020. [Code](https://github.com/podgorskiy/ALAE), [Paper](https://arxiv.org/abs/2004.04467).
+* Adversarial Latent Autoencoders, Pidhorskyi et al., CVPR 2020 - [Code](https://github.com/podgorskiy/ALAE), [Paper](https://arxiv.org/abs/2004.04467).
 

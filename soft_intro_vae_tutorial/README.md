@@ -3,16 +3,17 @@
 Step-by-step Jupyter Notebook tutorials for Soft-IntroVAE
 
 <center>
-    <a href=""><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
+    <a href="https://colab.research.google.com/github/taldatech/soft-intro-vae-pytorch/blob/main/soft_intro_vae_tutorial"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
 </center>
+
+<p align="center">
+<img src="https://raw.githubusercontent.com/taldatech/soft-intro-vae-web/main/assets/sintrovae_flow.PNG" style="height:200px"></p>
 
 - [soft-intro-vae-pytorch-tutorials](#soft-intro-vae-pytorch-tutorials)
   * [Running Instructions](#running-instructions)
   * [Files and directories in the repository](#files-and-directories-in-the-repository)
   * [But Wait, There is More...](#but-wait--there-is-more)
-    
-<img src="../assets/sintrovae_flow.PNG" style="height:250px">
-
+  
 ## Running Instructions
 * This Jupyter Notebook can be opened locally with Anaconda, or online via Google Colab.
 * To run online, go to https://colab.research.google.com/ and drag-and-drop the `soft_intro_vae_code_tutorial.ipynb` file.

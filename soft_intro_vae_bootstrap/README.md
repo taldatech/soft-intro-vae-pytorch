@@ -2,12 +2,11 @@
 
 Implementation of Soft-IntroVAE for image data, using "bootstrapping".
 
-A step-by-step tutorial can be found in [Soft-IntroVAE Jupyter Notebook Tutorials]().
+A step-by-step tutorial can be found in [Soft-IntroVAE Jupyter Notebook Tutorials](https://github.com/taldatech/soft-intro-vae-pytorch/tree/main/soft_intro_vae_tutorial).
 
-![2d_plot](https://github.com/taldatech/deep-variational-semisupervised-anomaly-detection-pytorch/blob/master/figs/anim_trimmed.gif?raw=true)
-
-  
-![2d_density](https://github.com/taldatech/deep-variational-semisupervised-anomaly-detection-pytorch/blob/master/figs/motion_plan.png?raw=true)
+<p align="center">
+  <img src="https://raw.githubusercontent.com/taldatech/soft-intro-vae-web/main/assets/svhn_samples.png" style="height:250px">
+</p>
 
 - [soft-intro-vae-pytorch-images-bootstrap](#soft-intro-vae-pytorch-images-bootstrap)
   * [What is different?](#what-is-different-)
@@ -101,5 +100,6 @@ Examples:
 
 
 ## Tutorial
-* 
+* [Jupyter Notebook tutorial for image datasets with bootstrapping](https://github.com/taldatech/soft-intro-vae-pytorch/blob/main/soft_intro_vae_tutorial/soft_intro_vae_bootstrap_code_tutorial.ipynb)
+  * [Open in Colab](https://colab.research.google.com/github/taldatech/soft-intro-vae-pytorch/blob/main/soft_intro_vae_tutorial/soft_intro_vae_bootstrap_code_tutorial.ipynb)
 
