@@ -2,9 +2,10 @@
 
 Step-by-step Jupyter Notebook tutorials for Soft-IntroVAE
 
-<center>
+
+<h4 align="center">
     <a href="https://colab.research.google.com/github/taldatech/soft-intro-vae-pytorch/blob/main/soft_intro_vae_tutorial"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
-</center>
+</h4>
 
 <p align="center">
 <img src="https://raw.githubusercontent.com/taldatech/soft-intro-vae-web/main/assets/sintrovae_flow.PNG" height="200"></p>
