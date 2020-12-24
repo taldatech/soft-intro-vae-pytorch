@@ -10,6 +10,10 @@ Step-by-step Jupyter Notebook tutorials for Soft-IntroVAE
 <p align="center">
 <img src="https://raw.githubusercontent.com/taldatech/soft-intro-vae-web/main/assets/sintrovae_flow.PNG" height="200"></p>
 
+<p align="center">
+  <img src="https://raw.githubusercontent.com/taldatech/soft-intro-vae-web/main/assets/notebook_intro.PNG" style="height:250px">
+</p>
+
 - [soft-intro-vae-pytorch-tutorials](#soft-intro-vae-pytorch-tutorials)
   * [Running Instructions](#running-instructions)
   * [Files and directories in the repository](#files-and-directories-in-the-repository)
@@ -28,7 +32,7 @@ Step-by-step Jupyter Notebook tutorials for Soft-IntroVAE
 |----------------------|------|
 |`soft_intro_vae_2d_code_tutorial.ipynb`| Soft-IntroVAE tutorial for 2D datasets|
 |`soft_intro_vae_image_code_tutorial.ipynb`|  Soft-IntroVAE tutorial for image datasets|
-|`soft_intro_vae_bootstrap_code_tutorial.ipynb`| Bootstrap Soft-IntroVAE tutorial for image datasets|
+|`soft_intro_vae_bootstrap_code_tutorial.ipynb`| Bootstrap Soft-IntroVAE tutorial for image datasets (not used in the paper)|
 
 
 ## But Wait, There is More...

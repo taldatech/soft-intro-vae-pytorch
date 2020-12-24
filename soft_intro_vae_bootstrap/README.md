@@ -1,6 +1,6 @@
 # soft-intro-vae-pytorch-images-bootstrap
 
-Implementation of Soft-IntroVAE for image data, using "bootstrapping".
+Implementation of Soft-IntroVAE for image data, using "bootstrapping". This version was not used in the paper.
 
 A step-by-step tutorial can be found in [Soft-IntroVAE Jupyter Notebook Tutorials](https://github.com/taldatech/soft-intro-vae-pytorch/tree/main/soft_intro_vae_tutorial).
 
@@ -22,8 +22,8 @@ A step-by-step tutorial can be found in [Soft-IntroVAE Jupyter Notebook Tutorial
 The idea is to use a `target` decoder to update both encoder and decoder. This makes
 the optimization a bit simpler, and allows more flexible values for `gamma_r` (e.g. 1.0 instead of 1e-8),
 the coefficient of the reconstruction error for the fake data in the decoder.
-Implementation-wise, the `target` decoder is no trained, but uses the weights of the original
-decoder, but lag 1 epoch behind (so we just copy the weights of the decoder to the target decoder every 1 epoch).
+Implementation-wise, the `target` decoder is not trained, but uses the weights of the original
+decoder, and it lags 1 epoch behind (so we just copy the weights of the decoder to the target decoder every 1 epoch).
 
 * In `train_soft_intro_vae_bootstrap.py`:
     * In the `SoftIntroVAE` class, another decoder is added (`self.target_decoder`), the `forward()` function uses the target decoder by default.
@@ -64,7 +64,6 @@ Examples:
 
 ## Datasets
 * CelebHQ: please follow [ALAE](https://github.com/podgorskiy/ALAE#datasets) instructions.
-* Digital-Monsters dataset:
 
 ## Recommended hyperparameters
 
