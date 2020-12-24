@@ -55,8 +55,8 @@ On the left is a sample from the (very diverse) Digital-Monsters dataset (we use
 We hope this does not give you nightmares.
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/taldatech/soft-intro-vae-web/main/assets/monsters_data.png" style="width:320px">
-  <img src="https://raw.githubusercontent.com/taldatech/soft-intro-vae-web/main/assets/monsters_generated_c.png" style="width:320px">
+  <img src="https://raw.githubusercontent.com/taldatech/soft-intro-vae-web/main/assets/monsters_data.png" width="320">
+  <img src="https://raw.githubusercontent.com/taldatech/soft-intro-vae-web/main/assets/monsters_generated_c.png" width="320">
 </p>
 
 ## Recommended hyperparameters
