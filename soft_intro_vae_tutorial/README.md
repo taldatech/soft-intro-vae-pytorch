@@ -4,7 +4,7 @@ Step-by-step Jupyter Notebook tutorials for Soft-IntroVAE
 
 
 <h4 align="center">
-    <a href="https://colab.research.google.com/github/taldatech/soft-intro-vae-pytorch/blob/main/soft_intro_vae_tutorial"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
+    <a href="https://colab.research.google.com/github/taldatech/soft-intro-vae-pytorch"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
 </h4>
 
 <p align="center">
@@ -23,8 +23,8 @@ Step-by-step Jupyter Notebook tutorials for Soft-IntroVAE
 * This Jupyter Notebook can be opened locally with Anaconda, or online via Google Colab.
 * To run online, go to https://colab.research.google.com/ and drag-and-drop the `soft_intro_vae_code_tutorial.ipynb` file.
     * On Colab, note the "directory" icon on the left, figures and checkpoints are saved in this directory.
-* To run the training on the image dataset, it is better to have a GPU. In Google Cola select `Runtime->Change runtime type->GPU`.
-* You can also use NBViewer to render the notebooks: 
+* To run the training on the image dataset, it is better to have a GPU. In Google Colab select `Runtime->Change runtime type->GPU`.
+* You can also use NBViewer to render the notebooks: [Open with Jupyter NBviewer](https://nbviewer.jupyter.org/github/taldatech/soft-intro-vae-pytorch/tree/main/)
 
 ## Files and directories in the repository
 
