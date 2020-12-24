@@ -49,7 +49,15 @@ Examples:
 
 ## Datasets
 * CelebHQ: please follow [ALAE](https://github.com/podgorskiy/ALAE#datasets) instructions.
-* Digital-Monsters dataset:
+* Digital-Monsters dataset: we curated a “Digital Monsters” dataset: ~4000 images of Pokemon, Digimon and Nexomon (yes, it’s a thing). We currently don't provide a download link for this dataset (not because we are bad people), but please contact us if you wish to create it yourself.
+
+On the left is a sample from the (very diverse) Digital-Monsters dataset (we used augmentations to enrich it), and on the right, samples generated from S-IntroVAE.
+We hope this does not give you nightmares.
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/taldatech/soft-intro-vae-web/main/assets/monsters_data.png" style="width:320px">
+  <img src="https://raw.githubusercontent.com/taldatech/soft-intro-vae-web/main/assets/monsters_generated_c.png" style="width:320px">
+</p>
 
 ## Recommended hyperparameters
 
