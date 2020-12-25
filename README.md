@@ -34,7 +34,7 @@ Soft-IntroVAE: Analyzing and Improving Introspective Variational Autoencoders
 ## Citation
 Coming soon
 
-<h4 align="center">Preprint on ArXiv: <a href="link">Soon</a></h4>
+<h4 align="center">Preprint on ArXiv: <a href="https://arxiv.org/abs/2012.13253">2012.13253</a></h4>
 
 
 - [soft-intro-vae-pytorch](#soft-intro-vae-pytorch)
