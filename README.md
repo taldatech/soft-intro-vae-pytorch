@@ -32,7 +32,14 @@ Soft-IntroVAE: Analyzing and Improving Introspective Variational Autoencoders
 > **Abstract:** *The recently introduced introspective variational autoencoder (IntroVAE) exhibits outstanding image generations, and allows for amortized inference using an image encoder. The main idea in IntroVAE is to train a VAE adversarially, using the VAE encoder to discriminate between generated and real data samples. However, the original IntroVAE loss function relied on a particular hinge-loss formulation that is very hard to stabilize in practice, and its theoretical convergence analysis ignored important terms in the loss. In this work, we take a step towards better understanding of the IntroVAE model, its practical implementation, and its applications. We propose the Soft-IntroVAE, a modified IntroVAE that replaces the hinge-loss terms with a smooth exponential loss on generated samples. This change significantly improves training stability, and also enables theoretical analysis of the complete algorithm. Interestingly, we show that the IntroVAE converges to a distribution that minimizes a sum of KL distance from the data distribution and an entropy term. We discuss the implications of this result, and demonstrate that it induces competitive image generation and reconstruction. Finally, we describe two applications of Soft-IntroVAE to unsupervised image translation and out-of-distribution detection, and demonstrate compelling results.*
 
 ## Citation
-Coming soon
+Daniel, Tal, and Aviv Tamar. "Soft-IntroVAE: Analyzing and Improving the Introspective Variational Autoencoder." arXiv preprint arXiv:2012.13253 (2020).
+>
+    @article{daniel2020soft,
+	title={Soft-IntroVAE: Analyzing and Improving the Introspective Variational Autoencoder},
+	author={Daniel, Tal and Tamar, Aviv},
+	journal={arXiv preprint arXiv:2012.13253},
+	year={2020}
+	}
 
 <h4 align="center">Preprint on ArXiv: <a href="https://arxiv.org/abs/2012.13253">2012.13253</a></h4>
 

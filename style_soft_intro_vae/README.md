@@ -71,7 +71,7 @@ Examples:
 
 * In config files, `OUTPUT_DIR` points to where weights are saved to and read from. For example: `OUTPUT_DIR: training_artifacts/celeba-hq256`.
 
-* In `OUTPUT_DIR` it saves a file `last_checkpoin`t which contains the path to the actual `.pth` pickle with model weight. If you want to test the model with a specific weight file, you can simply modify `last_checkpoint` file.
+* In `OUTPUT_DIR` it saves a file `last_checkpoint` which contains the path to the actual `.pth` pickle with model weight. If you want to test the model with a specific weight file, you can simply modify `last_checkpoint` file.
 
 ## Recommended hyperparameters
 
