@@ -125,8 +125,6 @@ def sample(cfg, logger):
     def encode(x):
         z, mu, _ = model.encode(x, layer_count - 1, 1)
         styles = model.mapping_fl(mu)
-        # Z, _ = model.encode(x, layer_count - 1, 1)
-        # Z = Z.repeat(1, model.mapping_fl.num_layers, 1)
         return styles
 
     def decode(x):

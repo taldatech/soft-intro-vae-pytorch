@@ -25,7 +25,7 @@ MODEL:
   BETA_REC: 0.1
   BETA_NEG: [2048,  2048,   2048,   1024,  512,   512,     512,    512,    512]
   SCALE: 0.000005
-OUTPUT_DIR: /home/tal/tmp/StyleSandwichVAE2/git_version/training_artifacts/ffhq
+OUTPUT_DIR: /home/tal/tmp/SoftIntroVAE/training_artifacts/ffhq
 TRAIN:
   BASE_LEARNING_RATE: 0.002
   EPOCHS_PER_LOD: 16
