@@ -2,15 +2,17 @@
 
 <h1 align="center">
   <br>
-Soft-IntroVAE: Analyzing and Improving Introspective Variational Autoencoders
+[CVPR 2021 Oral] Soft-IntroVAE: Analyzing and Improving Introspective Variational Autoencoders
   <br>
 </h1>
   <p align="center">
-    <a href="https://github.com/taldatech">Tal Daniel</a> •
+    <a href="https://taldatech.github.io">Tal Daniel</a> •
     <a href="https://avivt.github.io/avivt/">Aviv Tamar</a>
 
   </p>
 <h4 align="center">Official repository of the paper</h4>
+
+<h4 align="center">CVPR 2021 Oral</h4>
 
 <h4 align="center"><a href="https://taldatech.github.io/soft-intro-vae-web">Project Website</a></h4>
 
