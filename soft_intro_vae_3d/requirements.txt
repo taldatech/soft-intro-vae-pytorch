@@ -1,0 +1,6 @@
+h5py
+matplotlib
+numpy
+pandas
+git+https://github.com/szagoruyko/pyinn.git@master
+torch==0.4.1

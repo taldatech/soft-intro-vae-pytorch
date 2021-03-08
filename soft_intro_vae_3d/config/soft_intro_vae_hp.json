@@ -1,0 +1,68 @@
+{
+    "experiment_name": "soft_intro_vae",
+    "results_root": "./results",
+    "clean_results_dir": false,
+
+    "cuda": true,
+    "gpu": 0,
+
+    "reconstruction_loss": "chamfer",
+
+    "metrics": [
+    ],
+
+    "dataset": "shapenet",
+    "data_dir": "./datasets/shapenet_data",
+    "classes": ["car", "airplane"],
+    "shuffle": true,
+    "transforms": [],
+    "num_workers": 8,
+    "n_points": 2048,
+
+    "max_epochs": 2000,
+    "batch_size": 32,
+    "beta_rec": 20.0,
+    "beta_kl": 1.0,
+    "beta_neg": 256,
+    "z_size": 128,
+    "gamma_r": 1e-8,
+    "num_vae": 0,
+    "prior_std": 0.2,
+
+
+    "seed": -1,
+    "save_frequency": 50,
+    "valid_frequency": 2,
+
+    "arch": "vae",
+    "model": {
+        "D": {
+            "use_bias": true,
+            "relu_slope": 0.2
+        },
+        "E": {
+            "use_bias": true,
+            "relu_slope": 0.2
+        }
+    },
+    "optimizer": {
+        "D": {
+            "type": "Adam",
+            "hyperparams": {
+                "lr": 0.0005,
+                "weight_decay": 0,
+                "betas": [0.9, 0.999],
+                "amsgrad": false
+            }
+        },
+        "E": {
+            "type": "Adam",
+            "hyperparams": {
+                "lr": 0.0005,
+                "weight_decay": 0,
+                "betas": [0.9, 0.999],
+                "amsgrad": false
+            }
+        }
+    }
+}

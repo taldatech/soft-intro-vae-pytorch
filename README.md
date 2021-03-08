@@ -22,8 +22,12 @@
 
 
 <p align="center">
-  <img src="https://github.com/taldatech/soft-intro-vae-web/raw/main/assets/ffhq_samples.png" height="200">
-  <img src="https://raw.githubusercontent.com/taldatech/soft-intro-vae-web/main/assets/celebahq_recons.png" height="200">
+  <img src="https://github.com/taldatech/soft-intro-vae-web/raw/main/assets/ffhq_samples.png" height="120">
+  <img src="https://raw.githubusercontent.com/taldatech/soft-intro-vae-web/main/assets/celebahq_recons.png" height="120">
+</p>
+<p align="center">
+  <img src="https://github.com/taldatech/soft-intro-vae-web/raw/main/assets/3d_plane_to_car.gif" height="100">
+  <img src="https://raw.githubusercontent.com/taldatech/soft-intro-vae-web/main/assets/density_plot_png_f.PNG" height="100">
 </p>
 
 # Soft-IntroVAE
@@ -66,8 +70,6 @@ Daniel, Tal, and Aviv Tamar. "Soft-IntroVAE: Analyzing and Improving the Introsp
 |`Python`|  `3.6 (Anaconda)`|
 |`torch`|  >= `1.2` (tested on `1.7`)|
 |`torchvision`|  >= `0.4`|
-|`tensorboard`|  >= `1.10.0`|
-|`tensorboardX`|  >= `1.4`|
 |`matplotlib`|  >= `2.2.2`|
 |`numpy`|  >= `1.17`|
 |`opencv`|  >= `3.4.2`|
@@ -82,6 +84,7 @@ Daniel, Tal, and Aviv Tamar. "Soft-IntroVAE: Analyzing and Improving the Introsp
 |----------------------|------|
 |`/soft_intro_vae`| directory containing implementation for image data|
 |`/soft_intro_vae_2d`| directory containing implementations for 2D datasets|
+|`/soft_intro_vae_3d`| directory containing implementations for 3D point clouds data|
 |`/soft_intro_vae_bootstrap`| directory containing implementation for image data using bootstrapping (using a target decoder)|
 |`/style_soft_intro_vae`| directory containing implementation for image data using ALAE's style-based architecture|
 |`/soft_intro_vae_tutorials`| directory containing Jupyter Noteboook tutorials for the various types of Soft-IntroVAE|
