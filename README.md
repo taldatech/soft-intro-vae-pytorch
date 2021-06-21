@@ -14,7 +14,7 @@
 
 <h4 align="center">CVPR 2021 Oral</h4>
 
-<h4 align="center"><a href="https://taldatech.github.io/soft-intro-vae-web">Project Website</a></h4>
+<h4 align="center"><a href="https://taldatech.github.io/soft-intro-vae-web">Project Website</a> • <a href="https://www.youtube.com/watch?v=1NfsSYoHnBg">Video</a></h4>
 
 <h4 align="center">
     <a href="https://colab.research.google.com/github/taldatech/soft-intro-vae-pytorch"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
@@ -40,12 +40,14 @@
 ## Citation
 Daniel, Tal, and Aviv Tamar. "Soft-IntroVAE: Analyzing and Improving the Introspective Variational Autoencoder." arXiv preprint arXiv:2012.13253 (2020).
 >
-    @article{daniel2020soft,
-	title={Soft-IntroVAE: Analyzing and Improving the Introspective Variational Autoencoder},
-	author={Daniel, Tal and Tamar, Aviv},
-	journal={arXiv preprint arXiv:2012.13253},
-	year={2020}
-	}
+    @InProceedings{Daniel_2021_CVPR,
+    author    = {Daniel, Tal and Tamar, Aviv},
+    title     = {Soft-IntroVAE: Analyzing and Improving the Introspective Variational Autoencoder},
+    booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+    month     = {June},
+    year      = {2021},
+    pages     = {4391-4400}
+}
 
 <h4 align="center">Preprint on ArXiv: <a href="https://arxiv.org/abs/2012.13253">2012.13253</a></h4>
 
