@@ -91,6 +91,10 @@ Daniel, Tal, and Aviv Tamar. "Soft-IntroVAE: Analyzing and Improving the Introsp
 |`/style_soft_intro_vae`| directory containing implementation for image data using ALAE's style-based architecture|
 |`/soft_intro_vae_tutorials`| directory containing Jupyter Noteboook tutorials for the various types of Soft-IntroVAE|
 
+## Related Projects
+
+* March 2022: `augmentation-enhanced-soft-intro-vae` - <a href="">GitHub</a> - using differentiable augmentations to improve image generation FID score.
+
 
 ## Credits
 * Adversarial Latent Autoencoders, Pidhorskyi et al., CVPR 2020 - [Code](https://github.com/podgorskiy/ALAE), [Paper](https://arxiv.org/abs/2004.04467).
