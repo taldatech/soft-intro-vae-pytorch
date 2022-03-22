@@ -93,7 +93,7 @@ Daniel, Tal, and Aviv Tamar. "Soft-IntroVAE: Analyzing and Improving the Introsp
 
 ## Related Projects
 
-* March 2022: `augmentation-enhanced-soft-intro-vae` - <a href="">GitHub</a> - using differentiable augmentations to improve image generation FID score.
+* March 2022: `augmentation-enhanced-soft-intro-vae` - <a href="https://github.com/baruch1192/augmentation-enhanced-Soft-Intro-VAE">GitHub</a> - using differentiable augmentations to improve image generation FID score.
 
 
 ## Credits
