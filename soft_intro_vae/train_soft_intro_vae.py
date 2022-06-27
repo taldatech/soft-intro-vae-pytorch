@@ -39,6 +39,7 @@ class ResidualBlock(nn.Module):
     """
     https://github.com/hhb072/IntroVAE
     Difference: self.bn2 on output and not on (output + identity)
+    "if inc is not outc" -> "if inc != outc"
     """
 
     def __init__(self, inc=64, outc=64, groups=1, scale=1.0):
@@ -46,7 +47,7 @@ class ResidualBlock(nn.Module):
 
         midc = int(outc * scale)
 
-        if inc is not outc:
+        if inc != outc:
             self.conv_expand = nn.Conv2d(in_channels=inc, out_channels=outc, kernel_size=1, stride=1, padding=0,
                                          groups=1, bias=False)
         else:
